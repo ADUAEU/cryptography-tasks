@@ -18,6 +18,13 @@
             color: #1a73e8;
             text-decoration: none;
         }
+        .image {
+            margin: 20px 0;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -33,22 +40,34 @@
             <li>BLAKE2b</li>
         </ul>
         <p>Use cases include data integrity, digital signatures, and more.</p>
+        <div class="image">
+            <img src="HashFunction.jpeg" alt="Hash Functions Implementation Output">
+        </div>
     </div>
 
     <div class="section">
         <h2>2. RSA Digital Signature</h2>
         <p>Description of RSA:</p>
         <p>RSA uses a public/private key pair for secure digital signatures. It is used in secure email and data authentication.</p>
+        <div class="image">
+            <img src="RSA Digital Signature Implementation.jpeg" alt="RSA Digital Signature Implementation Output">
+        </div>
     </div>
 
     <div class="section">
         <h2>3. ECDSA Implementation</h2>
         <p>Elliptic Curve Digital Signature Algorithm (ECDSA) offers high security with smaller key sizes.</p>
+        <div class="image">
+            <img src="ECDSA Implementation.jpeg" alt="ECDSA Implementation Output">
+        </div>
     </div>
 
     <div class="section">
         <h2>4. EdDSA Implementation</h2>
         <p>Ed25519 is a modern, efficient digital signature scheme offering enhanced security and performance.</p>
+        <div class="image">
+            <img src="EdDSA Implementation.jpeg" alt="EdDSA Implementation Output">
+        </div>
     </div>
 
     <div class="section">
@@ -58,7 +77,10 @@
             <li>SHA-256, SHA3-256, BLAKE2b</li>
             <li>RSA, ECDSA, EdDSA</li>
         </ul>
-        <p>For detailed results, see the <a class="code-link" href="#">benchmark results file</a>.</p>
+        <p>For detailed results, see the <a class="code-link" href="https://github.com/ADUAEU/cryptography-tasks" target="_blank">benchmark results file</a>.</p>
+        <div class="image">
+            <img src="Benchmark Example Implementation.jpeg" alt="Benchmark Example Implementation Output">
+        </div>
     </div>
 </body>
 </html>
